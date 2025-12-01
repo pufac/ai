@@ -1,0 +1,1048 @@
+{{Vissza | Mesterséges intelligencia}}
+{{Kvízoldal
+|cím = Mesterséges intelligencia Igaz-Hamis}}
+
+== A bináris döntések jellemzésére szolgáló ROC görbének a görbe alatti területével jellemezzük a döntési eljárás jóságát. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A bridzset nem teljes információt biztosító véletlen környezetben játszuk. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A C01 költség általában nagyobb, mint a C11 költség. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A döntési fa nyesésnél a komplexitás csökkentésével a hibaarány is csökken. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A csomópontok kiértékelésének sorrendje nem hat az alfa-béta nyesés hatékonyságára. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A döntési fa nyesésnél a komplexitás csökkentésével a hibaarány nő. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A hasznosságorientált ágens a célhoz vezető különböző állapotsorozatokat (trajektóriákat) is képes értékelni. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A kétirányú keresésnél mindkét irányban javasolt mélységi keresést végezni, mert kicsi a tárigénye. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A mélységi keresés - ha az erőforráskorlátok nem teszik lehetetlenné - a véges mélységben található célállapotot biztosan megtalálja véges számú lépésben. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A mélységi keresés tárigénye minden esetben biztosan kisebb a szélességi keresésénél. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A mélységi keresés tárigénye tipikusan kisebb a szélességi keresésnél. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A mélységkorlátozott keresés mindig teljes. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A modellalapú ágens a környezetről is, önmagáról is modellt alkot, és ezeket frissíti. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A mohó keresés a legkisebb heurisztikus értékkel rendelkező csomópontot fejti ki először. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A racionálisan cselekvő rendszer nem feltétlenül azonos az emberi módon gondolkodó rendszerrel. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A reflexszerű ágens egyik nehézsége, hogy az ugrótáblája az állapotok számával exponenciálisan nő. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A rendszer intelligenciája csak a beépített következtetési mechanizmustól függ. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A sakkjáték teljes információszerzést lehetővé tevő determinisztikus környezetet ad. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A szélességi keresés mindig optimális (legkisebb költségű) megoldásra vezet. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A szükséges mintaszám becslésére szolgáló képlet akkor ad nagyon rossz eredményt (feleslegesen nagy értéket), ha a hibás hipotézisek jóval rosszabbak a kívánt pontosságnál. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A szükséges mintaszám becslésére szolgáló összefüggés által adott alsó korlát a végtelenhez tart, ha a hibára vonatkozó állításunk kívánt bizonyossága 1-hez tart. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A tanult neminformált keresési eljárások közül csak a szélességi keresés teljes. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A véletlen találgatás 0,5 ROC-görbe alatti területre vezet. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A tökéletes racionalitás általában lehetetlenül bonyolult és erőforrásigényes rendszert kíván. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Általában az a jó, ha a teljesítményét jellemző mérték kiszámítási módját az ágens csökkentheti. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Amennyiben a környezet sztochasztikus és az ágens érzékelői nem teszik lehetővé a környezet állapotainak meghatározását, akkor az ágens többállapotú problémával néz szembe. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Amikor a szenzitivitás (TPR) nő, a specificitás (TNR) együtt nő vele. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Annak, hogy egy ε=0.1 hibájú hipotézis konzisztens legyen 100 véletlen tantómintával, annak 10-szer akkora a valószínüsége, mint ε=0.01 hibájú hipotézisnek ugyanezekkel a mintákkal. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az A* keresés ugyan teljes, de a talált megoldás nem biztos, hogy optimális. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az ágens racionális cselekvése közelebb viszi (az állapottérben) az elérendő célhoz. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az ágensnek a racionális működéshez figyelembe kell vennie a lehetséges cselekvéseit is. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Az alfa-béta nyesés ideális esetben, adott időkorlát mellett kb. kétszeresére növeli a feldolgozható mélységet. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Az alfa-béta nyesésnél az alfa érték a MAX játékos számára talált legjobb érték. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Az alfa-béta nyesésnél az alfa érték a MIN játékos számára talált legjobb értéket. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az állapotok reprezentációja nem befolyásolja a CSP probléma keresési fájának komplexitását (ha a levelek számával mérjük a komplexitást). ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az egyenletes költségű keresés optimális. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Az ideális döntési eljárás 0 ROC-görbe alatti területre vezet. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az időbeli különbség (IK) tanulási módszer hatékonyságát az állapotátmenet-mátrix optimális felhasználása adja. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az irreleváns attribútum tesztje esetén a ROC görbe alatti terület 0,5. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az iteratívan mélyülő keresés relatíve annál kevesebb felesleges csomópontkifejtést végez, minél nagyobb az elágazási faktor. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Azokat a hipotéziseket nevezzük valószínüleg közelítően helyesnek (VKH), aminek a hibája egy adott εˇlim határnál kisebb. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Azt, hogy a környezetet dinamikusnak kezeljük-e, csak attól függ, hogy a környezet milyen sebességgel változik. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Bináris döntésnél, ha egy attribútum tesztje után az összes gyermekcsomópontnál ugyanaz a két osztály mintáinak aránya, mint a szülőcsomópontban volt, akkor a teszt a lehető legnagyobb információnyereséget érte el. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy adott állapotban elvégezhető cselekvésekhez tartozó legnagyobb Q érték az állapot hasznosságát adja. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy állapot hasznosságát csak akkor tudjuk értelmezni ha egy adott állapotból csak egy végállapotba tudunk eljutni. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Epizódszerű a környezet, ha az észlelés, cselekvés nem folyamatos. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Epizódszerű a környezet, ha a cselekvés nem folyamatos, csak az észlelés az. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha a hamis negatív esetek nagyobb költségnövekedést okoznak egy mintahalmazra, mint a hamis pozitív esetek, akkor ezt a csoportot pozitívnak célszerű tulajdonítani. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha a keresés a lehető legkevesebb lépésben megoldáshoz vezet, akkor a megoldás biztosan optimális. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha a lehető legjobb sorrendben értékeljük ki a csomópontokat, akkor adott erőforrások mellett kb. kétszeresre nő az elérhető mélység. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha a leszámítolási tényező gamma = 1, és a jutalmaknak véges maximuma van, akkor végtelen lépéssor is véges összjutalmat eredményez. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha az előttünk haladó autónak hátul nem működik a szokásos középső féklámpája, csak a helyzetjelzővel egybeépítettek a két oldalán, akkor reflexszerű ágenssel nem tudjuk az automata fékezést megoldani. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha egy kellően nagy mintahalmazban 2 eset fordul elő egyforma gyakorisággal, akkor a helyes osztályozáshoz az információszükséglet 2 bit. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha kereséssel akarjuk megoldani a CSP problémánkat, és egy-egy értékadással jutunk egyik állapotból a következőbe, akkor minden megoldás N mélységben van. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha kicsi a megoldás mélysége, akkor a szélességi keresés könnyű helyzetben van. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha kicsi valamelyik megoldás mélysége, akkor a mélységi keresés könnyű helyzetben van. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha lokális kereséssel oldjuk meg kényszerkielégítéses problémánkat, akkor induláskor minden változónak adunk valamilyen értéket. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha lokális kereséssel oldjuk meg kényszerkielégítéses problémánkat, akkor minden lépésben azok közül a változók közül adunk valamelyiknek új értéket, amelyek egyetlen kényszert sem sértenek. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha minden állapotátmenetnek azonos a költsége, akkor a szélességi keresés lefutása megegyezik az egyenletes költségű keresésével. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha minden állapotátmenetnek azonos a költsége, és a mélységi keresés megtalálja a megoldást, akkor az optimális. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha minden esetet pozitívnak feltételezünk, akkor a hamis negatív esetek nem okoznak költségnövekedést. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Hegymászó keresés esetén a számon tartott keresési gráf mérete a megoldás mélységének négyzetével nő. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Hegymászó keresésnél a lokális szélsőértékek okozta problémák csökkentése érdekében véletlen újraindítású keresést végezhetünk. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ideális heurisztika esetén az effektv elágazási tényező 0. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ideális heurisztika esetén az effektv elágazási tényező 2. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Kényszerkielégítési problémáknál a változók értékadásának sorrendje nem befolyásolja a megoldást (esetleg a megoldáshoz vezető út sebességét). ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Kétirányú keresésnél mindkét irányba javasolt mélységi keresést végezni, mert kicsi a tárigénye. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Korlátozott racionalitású rendszernél figyelembe vesszük az idő- és erőforráskorlátokat is. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Nem hozzáférhető környezetben az intelligens rendszernek az információhiányt is kezelnie kell. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Nem informált kereséseknél a probléma bonyolultságát legtöbbször a megoldás mélysége és az átlagos elágazási faktor jellemzi. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Nem informált kereséseknél mindig kell ismernünk az állapotátmenetek költségét (pl. a két város közti távolságot)? ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Szimulált lehűtés esetén a hőmérséklet csökkenésével egyre kisebb a nem optimális irányba történő lépés valószínűsége. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A nem informált keresések tárigénye mindig exponenciális függvénye annak, hogy a megoldás a keresési gráfban milyen mélységben található. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha az ágens belső állapotainak száma kicsi, akkor elegendő a nyers erő(brute force) módszerek alkalmazása. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Hipotézisünket addig fogjuk tanitani, amíg konzisztens lesz az E = 0,1 hiba 99% bizonyossággal való eléréséhez szükséges M véletlenszerűen választott tanitómintával. A szükséges mintaszám (M) a hipotézistér komplexitásának (|H|) lineáris függvény lesz. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha az ágens csak az élet egyes körülhatárolt területein mutat intelligenciát, bár ott akár az embernél is intelligensebb lehet, akkor ezt gyenge mesterséges intelligenciának nevezzük. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A keresési eljárások alkalmazhatóságának szükséges feltétele, hogy a célállapotok felsorolása rendelkezésünkre álljon. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ha mélységkorlátozott keresés esetén találunk megoldást, akkor sem biztos, hogy az eljárásunk optimális megoldásra vezet. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Szimulált lehűtésnél kezdetben nagy a nem optimális irányba történő lépés valószínűsége. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál, ha szigmoid aktivációs függvényt alkalmazunk, akkor lényges, hogy már a tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Akkor beszélünk túltanulásról, ha a tanító készlet mintáira már nagyon kis hibájú válaszokat kapunk, miközben a kiértékelő készletre egyre nagyobb hibájú válaszok érkeznek. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál a batch, azaz kötegelt tanítás azt jelenti, hogy súlymódosításra csak a teljes tanítókészlet felhasználása után kerül sor. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Mivel a bátorsági tényező (learning rate) egyértelmű meghatározásra nincs módszer, így az egyik lehetőség az, hogy a kritérium. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A naiv Bayes-hálók alapvető feletvése az, hogy egyetlen szülőcsomóponthoz több gyermekcsomópont kapcsolódik, melyek között lehetnek további függőségi kapcsolatok. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy Bayes-hálóbeli csomópont a Markov-takarója ismeretében feltételesen független az összes többi csomóponttól. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egyszeresen összekötött gráf struktúrával rendelkező Bayes-hálók esetében (polifa) létezik a háló méretében lineáris idő-és tárkomplexitású egzakt következtető algoritmus. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Passzív megerősítéses tanulásnál N állapot esetén a Bellman összefüggésből egy N egyenletből álló nemlineáris egyenletrendszer adódik. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Akkor beszélünk túltanulásról, ha a tanító készlet mintáira már nagy hibájú válaszokat kapunk, miközben a kiértékelő készletre egyre kisebb hibájú válaszok érkeznek. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál a bátorsági tényező (learning rate) minden esetben egyértelműen meghatározható, ha a kritérium függvénytől függő adaptív bátorsági tényezőt alkalmazunk. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál a batch, azaz kötegelt tanítás azt jelenti, hogy súlymódosításra csak a tanítókészlet egy részének felhasználása után kerül sor. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A mesterséges neurális hálók (legalább egy rejtett réteggel) univerzális approximátorok, azaz tetszőleges folytonos függvényt képesek reprezentálni. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A neurális hálók tanítása egy nem konvex optimalizálási feladat, mert a hibafelületen számos lokális minimum előfordulhat. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy Bayes-háló irányított élei a csomópontok által reprezentált változók közötti feltételes függőségi kapcsolatokat jelölik. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy Bayes-hálóbeli csomópont Markov-takarója a csomópont szüleit, gyermekeit és gyermekeinek egyéb szüleit tartalmazza. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A Markov-takaró lényeges tulajdonsága Bayes-hálók esetén az, hogy ha ismerjük a vizsgált csomópont Markov-takaróbeli csomópontjainak az értékét, akkor a vizsgált csomópont értékének becsléséhez a háló többi részére nincs szükség. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Aktív megerősítéses tanulásnál, ha a kezdetektől mindig mohó eljárást követünk, akkor lehet, hogy az optimálisnál rosszabb megoldást kapunk a tanulás végén. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Passzív megerősítéses tanulásnál az eljárásmód gyorsabb tanulásával gyorsíthatjuk az állapothasznosság-értékek tanulását. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A neurális hálóknál, ha szigmoid aktivációs függvényt alkalmazunk, akkor lényeges, hogy már a tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A szekvenciális probléma iteratív megoldása során gyakran az értékek még nem konvergálnak pontosan, de a stratégia már egyértelmű lehet. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Mivel az időbeli különbség tanuláshoz nincs szükség az állapotátmenet-modellre, ezért Q-tanulásra is használható. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A hasznosságfüggvény explicit reprezentációja jobb általánosító képességet tesz lehetővé, mint az implicit reprezentáció. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az adott állapothoz tartozó legnagyobb Q érték az állapot hasznosságát adja. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A mohó felfedezést végző ágens könnyen egy szuboptimumba juthat. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A hóbortos felfedezést végző ágens nagyon jól kiismeri környezetét, de nem aknázza ki ezt a tudását a jutalmak gyűjtésére. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Az aktív megerősítéses tanulásban kettős célja van az ágensnek: egyrészt minél nagyobb jutalmakat akar gyűjteni, másrészt javítani akarja a megszerzett tudást, a jövőbeli szekvenciákhoz. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Eljárásmód-iteráció esetén, ha a t-dik lépésben kiszámítottuk az Ut(s) értékeket, akkor a következő eljárásmód becslés – πt+1(s) – nem függ a leszámítolási tényezőtől. ==
+{{kvízkérdés|típus=egy|válasz=|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál, ha szigmoid aktivációs függvényt alkalmazunk, akkor lényeges, hogy már a tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Akkor beszélünk túltanulásról, ha a tanító készlet mintáira már nagyon kis hibájú válaszokat kapunk, miközben a kiértékelő készletre egyre nagyobb hibájú válaszok érkeznek. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Neurális hálóknál a batch, azaz a kötegelt tanítás azt jelenti, hogy súlymódosításra csak a teljes tanítókészlet felhasználása után kerül sor. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Mivel a bátorsági tényező (learning rate) egyértelmű meghatározására nincs módszer, így az egyik lehetőség az, hogy a kritérium függvénytől függő adaptív bátorsági tényezőt alkalmazunk. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A naiv Bayes-hálók alapvető feltevése az, hogy egyetlen szülőcsomóponthoz több gyerekcsomópont kapcsolódik, melyek között lehetnek további függőségi kapcsolatok. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy Bayes-háló csak oksági kapcsolatokat képes reprezentálni. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy Bayes-hálóbeli csomópont a Markov-takarója ismeretében feltételesen független az összes többi csomóponttól. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egyszeresen összekötött gráf struktúrával rendelkező Bayes-hálók esetében (polifa) létezik a háló méretében lineáris idő- és tárkomplexitású egzakt következtető algoritmus. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Passzív megerősítéses tanulásnál N állapot esetén a Bellman összefüggésből egy N egyenletből álló nemlineáris egyenletrendszer adódik. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Az oksági kapcsolatok mindig egyben asszociációs kapcsolatok is. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== A tanítás elején ne kerüljön a telítéses szakaszra a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A tanítás elején kerüljön nem telítéses szakaszra a rejtett rétegek kimenete. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy csomópont feltételesen független a nem leszármazottaitól a szülők ismeretében. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy csomópont feltételes valószínűségi táblája a szülők értékeinek konfigurációja szerint tartalmazza a csomópontra vonatkozó feltételes valószínűségeket. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A Bayes-háló feltételes függetlenségeket / függőségeket leíró gráfstruktúrája összhangban kell legyen a parametrizációval, melyet minden csomópontra a szülők értékei függvényében adunk meg. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A Bayes-háló által reprezentált együttes valószínűségi eloszlás a szülői halmazok alapján faktorálható (feltételes valószínűségek szorzatára). ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A Bayes-háló által leírt függőségek mindig oksági kapcsolatokat jelentenek. ==
+{{kvízkérdés|típus=egy|válasz=2|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy adott csomópont szülei, gyermekei és gyermekeinek egyéb szülei tartoznak ebbe a halmazba. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy döntési fa esetében a nyesés (pruning) azt jelenti, hogy a döntési fának eltávolítjuk azt az ágát, ahol egy attribútum vizsgálata révén előálló információszükségletváltozás nem releváns. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy döntési fa esetében a komplexitás – hibaarány alapú nyesésnél az alfa paraméter az egységnyi komplexitás költségének és az egységnyi hiba költségének az aránya. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy döntési fa esetében egy attribútum akkor tekinthető irrelevánsnak, ha az attribútum értékei mentén létrejövő részhalmazok azonos arányban tartalmaznak mintákat minden lehetséges osztályból. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A megfigyelési ekvivalencia azt jelenti, hogy különböző oksági modelleknek lehetnek azonos függőségi térképei. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Bayesi modellátlagolás során az a_posteriori valószínűség számításakor minden lehetséges hipotézist figyelembe veszünk az a_priori valószínűség szerint súlyozva, majd ez frissítjük a beérkező evidenciák likelihoodja alapján. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Reichenbach közös ok elve (common cause principle) azt mondja ki, hogy ha X és Y változó korrelál egymással, akkor (X okozza Y-t) vagy (Y okozza X-et) vagy (X,Y rendelkezik egy közös okkal). ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A Bellman egyensúlyi egyenlet szerint egy állapot hasznossága az állapotban tartózkodás közvetlen jutalmának és a következő állapot várható leszámítolt hasznosságának az összege, feltéve, hogy az ágens az optimális cselekvést választja. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy ágens akkor hoz racionális döntést, ha a várható hasznosságot maximalizálja. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Egy részlegesen megfigyelhető Markov döntési folyamat (RMMDF) megoldása a fizikai térben redukálható egy Markov döntési folyamattá (MDF) a hozzá tartozó hiedelemtérben. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Ismeretlen környezetben végzett aktív tanulás során a mohó ágens hibája, hogy gyakran talál egy jó utat, viszont utána ragaszkodik hozzá, és soha nem tanulja meg a többi állapot hasznosságát. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A cselekvés-érték függvényre Q(s,a) nem igaz, hogy a feltétel-cselekvés szabályokhoz hasonlóan lehetővé teszik a döntést egy környezeti modell alkalmazásával. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Klaszterezés esetén kettős cél van: a klaszteren belüli pontok között minél kisebb legyen a távolság és a különböző klaszterekbe tartozó pontok közötti pedig minél nagyobb. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== A sakkjátékot teljes információszerzést lehetővé tevő determinisztikus környezetet ad. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+==  ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+== Szimulált lehűtés esetén a hőmérséklet csökkenésével egyre kisebb a nem optimális irányba történő lépés valószínűsége. ==
+{{kvízkérdés|típus=egy|válasz=1|pontozás=}}
+# Igaz
+# Hamis
+
+
+1.Miért fontos, hogy az ágens teljesítményét mérő mérték külső legyen (az ágens ne tudja
+befolyásolni)?
+Mivel így megváltoztathatja az önmagát korlátozó részeket és hamis eredményt mutathat fel,
+vagy rossz cél felé vezérelheti magát. Azaz manipulálhatja az ágens a teljesítménymértéket
+ahelyett hogy a kívánt célt igyekezne elérni.
+2.A világ legjobb go/sakkjátékosait legyőző programok emberi módon gondolkodó
+rendszerek?
+?Adott cselekvések mintáiból tanul és húzza rá azoknak a mintáit az adott helyzetre és
+azoknak a hasonlósáigaiból kifolyólag cselekszik, illetve a lépésekből tanul. Így hasonló
+módon hibáikból és sikereikből tanulnak mint az emberek.
+3.Adott feladatban az ágens környezetét a hőmérséklet, a páratartalom, az étel/ital
+mennyisége, a felhasználók által megfogalmazott kérések teljesen leírják. Ha ezek a
+paraméterek két esetben mind megegyeznek, akkor a feladatot megoldó intelligens rendszer
+ugyanabban az állapotban van?
+?Kiinduló állapotától függ, ha ugyanazon kiindulási állapotban vagyunk és mivel statikusak
+az ágens átemeneti függvényei és továbbá determinisztikusak is akkor bererülhet mindkét
+rendszer ugyanazon állapotba. Továbbá adott átmeneti függvényeink vannak, ezek nem
+bővülnek, nem tanuló ágensről beszélünk. Tanuló ágens esetén egy kevésbé tanult egység
+más eredményeket produkálhat.
+4.Milyen szempontok mentén értékeljük a keresési eljárásokat?
+- Teljesség (completeness) - ha van megoldás, biztosan megtalálja
+- Időigény (time complexity) – mennyi idő a megoldás megtalálása?
+- Tárigény (space complexity) – mennyi tárhely kell
+- Optimalitás (optimality) – ha több megoldás van, megtaláljuk-e a legjobbat?
+5.Miacéltesztkényszerkielégítésiproblémáknál?
+A célteszt a kényszerkielégítési problémáknál, az hogy az adott korlátok teljes halmaza
+mellett, minden kényszer teljesül (azaz adott változókhoz rendelt megengedett értékek
+mellett).
+6.AzX1,X2,…,XNváltozókírjákleaCSPproblémánkállapotát,ésX1értékkészlete
+d1értékbőláll,X2-éd2-bőlésígytovábbXN-édNértékből.
+a.Hányleveleleszakeresésifának?
+A változók száma: n ~> n=|X1,X2,...,XN| = N
+Az egyes változók értékkészlete: d (domain) ~> X1 domainje = d1 és így tovább
+A keresési fa leveleinek száma pedig: n!*d^n = N!*d^N
+b.Haegyszerűvisszalépéses(mélységi)kereséstvégzünk,akkormiaminimális
+lépésszám,amibenmegoldásttalálhatunk,ésmiamaximális(worstcase)lépésszám?
+Minimális a lépésszám ha a a fa mélysége pont ott minimális ahol a mélységi keresés indul.
+?Maximális ha a fa mélységével megegyező mélységben van a kerestt elem.
+7.AzX1,X2,…,XNváltozókírjákleaCSPproblémánkállapotát,éskiinduláskor
+mindegyikváltozóértékkészletedértékbőláll(d>N).Előretekintőkeresést
+alkalmazunk,ésmindenértékadás1-elcsökkentiazösszesméglenemkötött
+változókértékkészleténekszámát.Hányleveleleszakeresésifának?
+
+**1. A bináris döntések jellemzésére szolgáló ROC görbének a görbe alatti területével jellemezzük a döntési eljárás jóságát.**  
+Igaz  
+
+**2. A bridzset nem teljes információt biztosító véletlen környezetben játsszuk.**  
+Igaz  
+
+**3. A C01 költség általában nagyobb, mint a C11 költség.**  
+Hamis  
+
+**4. A döntési fa nyesésnél a komplexitás csökkentésével a hibaarány is csökken.**  
+Hamis  
+
+**5. A csomópontok kiértékelésének sorrendje nem hat az alfa-béta nyesés hatékonyságára.**  
+Hamis  
+
+**6. A döntési fa nyesésnél a komplexitás csökkentésével a hibaarány nő.**  
+Igaz  
+
+**7. A hasznosságorientált ágens a célhoz vezető különböző állapotsorozatokat (trajektóriákat) is képes értékelni.**  
+Igaz  
+
+**8. A kétirányú keresésnél mindkét irányban javasolt mélységi keresést végezni, mert kicsi a tárigénye.**  
+Hamis  
+
+**9. A mélységi keresés - ha az erőforráskorlátok nem teszik lehetetlenné - a véges mélységben található célállapotot biztosan megtalálja véges számú lépésben.**  
+Igaz  
+
+**10. A mélységi keresés tárigénye minden esetben biztosan kisebb a szélességi keresésénél.**  
+Hamis  
+
+**11. A mélységi keresés tárigénye tipikusan kisebb a szélességi keresésnél.**  
+Igaz  
+
+**12. A mélységkorlátozott keresés mindig teljes.**  
+Hamis  
+
+**13. A modellalapú ágens a környezetről is, önmagáról is modellt alkot, és ezeket frissíti.**  
+Igaz  
+
+**14. A mohó keresés a legkisebb heurisztikus értékkel rendelkező csomópontot fejti ki először.**  
+Igaz  
+
+**15. A racionálisan cselekvő rendszer nem feltétlenül azonos az emberi módon gondolkodó rendszerrel.**  
+Igaz  
+
+**16. A reflexszerű ágens egyik nehézsége, hogy az ugrótáblája az állapotok számával exponenciálisan nő.**  
+Igaz  
+
+**17. A rendszer intelligenciája csak a beépített következtetési mechanizmustól függ.**  
+Hamis  
+
+**18. A sakkjáték teljes információszerzést lehetővé tevő determinisztikus környezetet ad.**  
+Igaz  
+
+**19. A szélességi keresés mindig optimális (legkisebb költségű) megoldásra vezet.**  
+Hamis  
+
+**20. A szükséges mintaszám becslésére szolgáló képlet akkor ad nagyon rossz eredményt (feleslegesen nagy értéket), ha a hibás hipotézisek jóval rosszabbak a kívánt pontosságnál.**  
+Hamis  
+
+**21. A szükséges mintaszám becslésére szolgáló összefüggés által adott alsó korlát a végtelenhez tart, ha a hibára vonatkozó állításunk kívánt bizonyossága 1-hez tart.**  
+Igaz  
+
+**22. A tanult neminformált keresési eljárások közül csak a szélességi keresés teljes.**  
+Hamis  
+
+**23. A véletlen találgatás 0,5 ROC-görbe alatti területre vezet.**  
+Igaz  
+
+**24. A tökéletes racionalitás általában lehetetlenül bonyolult és erőforrásigényes rendszert kíván.**  
+Igaz  
+
+**25. Általában az a jó, ha a teljesítményét jellemző mérték kiszámítási módját az ágens csökkentheti.**  
+Hamis  
+
+**26. Amennyiben a környezet sztochasztikus és az ágens érzékelői nem teszik lehetővé a környezet állapotainak meghatározását, akkor az ágens többállapotú problémával néz szembe.**  
+Igaz  
+
+**27. Amikor a szenzitivitás (TPR) nő, a specificitás (TNR) együtt nő vele.**  
+Hamis  
+
+**28. Annak, hogy egy ε=0.1 hibájú hipotézis konzisztens legyen 100 véletlen tantómintával, annak 10-szer akkora a valószínűsége, mint ε=0.01 hibájú hipotézisnek ugyanezekkel a mintákkal.**  
+Hamis  
+
+**29. Az A* keresés ugyan teljes, de a talált megoldás nem biztos, hogy optimális.**  
+Hamis  
+
+**30. Az ágens racionális cselekvése közelebb viszi (az állapottérben) az elérendő célhoz.**  
+Hamis  
+
+**31. Az ágensnek a racionális működéshez figyelembe kell vennie a lehetséges cselekvéseit is.**  
+Igaz  
+
+**32. Az alfa-béta nyesés ideális esetben, adott időkorlát mellett kb. kétszeresére növeli a feldolgozható mélységet.**  
+Igaz  
+
+**33. Az alfa-béta nyesésnél az alfa érték a MAX játékos számára talált legjobb érték.**  
+Igaz  
+
+**34. Az alfa-béta nyesésnél az alfa érték a MIN játékos számára talált legjobb értéket.**  
+Hamis  
+
+**35. Az állapotok reprezentációja nem befolyásolja a CSP probléma keresési fájának komplexitását (ha a levelek számával mérjük a komplexitást).**  
+Hamis  
+
+**36. Az egyenletes költségű keresés optimális.**  
+Igaz  
+
+**37. Az ideális döntési eljárás 0 ROC-görbe alatti területre vezet.**  
+Hamis  
+
+**38. Az időbeli különbség (IK) tanulási módszer hatékonyságát az állapotátmenet-mátrix optimális felhasználása adja.**  
+Hamis  
+
+**39. Az irreleváns attribútum tesztje esetén a ROC görbe alatti terület 0,5.**  
+Igaz  
+
+**40. Az iteratívan mélyülő keresés relatíve annál kevesebb felesleges csomópontkifejtést végez, minél nagyobb az elágazási faktor.**  
+Igaz  
+
+**41. Azokat a hipotéziseket nevezzük valószínűleg közelítően helyesnek (VKH), aminek a hibája egy adott ε-lim határnál kisebb.**  
+Igaz  
+
+**42. Azt, hogy a környezetet dinamikusnak kezeljük-e, csak attól függ, hogy a környezet milyen sebességgel változik.**  
+Hamis  
+
+**43. Bináris döntésnél, ha egy attribútum tesztje után az összes gyermekcsomópontnál ugyanaz a két osztály mintáinak aránya, mint a szülőcsomópontban volt, akkor a teszt a lehető legnagyobb információnyereséget érte el.**  
+Hamis  
+
+**44. Egy adott állapotban elvégezhető cselekvésekhez tartozó legnagyobb Q érték az állapot hasznosságát adja.**  
+Igaz  
+
+**45. Egy állapot hasznosságát csak akkor tudjuk értelmezni, ha egy adott állapotból csak egy végállapotba tudunk eljutni.**  
+Hamis  
+
+**46. Epizódszerű a környezet, ha az észlelés, cselekvés nem folyamatos.**  
+Igaz  
+
+**47. Epizódszerű a környezet, ha a cselekvés nem folyamatos, csak az észlelés az.**  
+Hamis  
+
+**48. Ha a hamis negatív esetek nagyobb költségnövekedést okoznak egy mintahalmazra, mint a hamis pozitív esetek, akkor ezt a csoportot pozitívnak célszerű tulajdonítani.**  
+Igaz  
+
+**49. Ha a keresés a lehető legkevesebb lépésben megoldáshoz vezet, akkor a megoldás biztosan optimális.**  
+Hamis  
+
+**50. Ha a lehető legjobb sorrendben értékeljük ki a csomópontokat, akkor adott erőforrások mellett kb. kétszeresre nő az elérhető mélység.**  
+Igaz  
+
+**51. Ha a leszámítolási tényező gamma = 1, és a jutalmaknak véges maximuma van, akkor végtelen lépéssor is véges összjutalmat eredményez.**  
+Hamis  
+
+**52. Ha az előttünk haladó autónak hátul nem működik a szokásos középső féklámpája, csak a helyzetjelzővel egybeépítettek a két oldalán, akkor reflexszerű ágenssel nem tudjuk az automata fékezést megoldani.**  
+Igaz  
+
+**53. Ha egy kellően nagy mintahalmazban 2 eset fordul elő egyforma gyakorisággal, akkor a helyes osztályozáshoz az információszükséglet 2 bit.**  
+Hamis  
+
+**54. Ha kereséssel akarjuk megoldani a CSP problémánkat, és egy-egy értékadással jutunk egyik állapotból a következőbe, akkor minden megoldás N mélységben van.**  
+Igaz  
+
+**55. Ha kicsi a megoldás mélysége, akkor a szélességi keresés könnyű helyzetben van.**  
+Igaz  
+
+**56. Ha kicsi valamelyik megoldás mélysége, akkor a mélységi keresés könnyű helyzetben van.**  
+Hamis  
+
+**57. Ha lokális kereséssel oldjuk meg kényszerkielégítéses problémánkat, akkor induláskor minden változónak adunk valamilyen értéket.**  
+Igaz  
+
+**58. Ha lokális kereséssel oldjuk meg kényszerkielégítéses problémánkat, akkor minden lépésben azok közül a változók közül adunk valamelyiknek új értéket, amelyek egyetlen kényszert sem sértenek.**  
+Hamis  
+
+**59. Ha minden állapotátmenetnek azonos a költsége, akkor a szélességi keresés lefutása megegyezik az egyenletes költségű keresésével.**  
+Igaz  
+
+**60. Ha minden állapotátmenetnek azonos a költsége, és a mélységi keresés megtalálja a megoldást, akkor az optimális.**  
+Hamis  
+
+**61. Ha minden esetet pozitívnak feltételezünk, akkor a hamis negatív esetek nem okoznak költségnövekedést.**  
+Hamis  
+
+**62. Hegymászó keresés esetén a számon tartott keresési gráf mérete a megoldás mélységének négyzetével nő.**  
+Hamis  
+
+**63. Hegymászó keresésnél a lokális szélsőértékek okozta problémák csökkentése érdekében véletlen újraindítású keresést végezhetünk.**  
+Igaz  
+
+**64. Ideális heurisztika esetén az effektív elágazási tényező 0.**  
+Hamis  
+
+**65. Ideális heurisztika esetén az effektív elágazási tényező 2.**  
+Hamis  
+
+**66. Kényszerkielégítési problémáknál a változók értékadásának sorrendje nem befolyásolja a megoldást (esetleg a megoldáshoz vezető út sebességét).**  
+Igaz  
+
+**67. Kétirányú keresésnél mindkét irányba javasolt mélységi keresést végezni, mert kicsi a tárigénye.**  
+Hamis  
+
+**68. Korlátozott racionalitású rendszernél figyelembe vesszük az idő- és erőforráskorlátokat is.**  
+Igaz  
+
+**69. Nem hozzáférhető környezetben az intelligens rendszernek az információhiányt is kezelnie kell.**  
+Igaz  
+
+**70. Nem informált kereséseknél a probléma bonyolultságát legtöbbször a megoldás mélysége és az átlagos elágazási faktor jellemzi.**  
+Igaz  
+
+**71. Nem informált kereséseknél mindig kell ismernünk az állapotátmenetek költségét (pl. a két város közti távolságot).**  
+Hamis  
+
+**72. Szimulált lehűtés esetén a hőmérséklet csökkenésével egyre kisebb a nem optimális irányba történő lépés valószínűsége.**  
+Igaz  
+
+**73. A nem informált keresések tárigénye mindig exponenciális függvénye annak, hogy a megoldás a keresési gráfban milyen mélységben található.**  
+Hamis  
+
+**74. Ha az ágens belső állapotainak száma kicsi, akkor elegendő a nyers erő (brute force) módszerek alkalmazása.**  
+Igaz  
+
+**75. Hipotézisünket addig fogjuk tanítani, amíg konzisztens lesz az E=0,1 hiba 99% bizonyossággal való eléréséhez szükséges M véletlenszerűen választott tanítómintával. A szükséges mintaszám (M) a hipotézistér komplexitásának (|H|) lineáris függvénye lesz.**  
+Hamis  
+
+**76. Ha az ágens csak az élet egyes körülhatárolt területein mutat intelligenciát, bár ott akár az embernél is intelligensebb lehet, akkor ezt gyenge mesterséges intelligenciának nevezzük.**  
+Igaz  
+
+**77. A keresési eljárások alkalmazhatóságának szükséges feltétele, hogy a célállapotok felsorolása rendelkezésünkre álljon.**  
+Igaz  
+
+**78. Ha mélységkorlátozott keresés esetén találunk megoldást, akkor sem biztos, hogy az eljárásunk optimális megoldásra vezet.**  
+Igaz  
+
+**79. Szimulált lehűtésnél kezdetben nagy a nem optimális irányba történő lépés valószínűsége.**  
+Igaz  
+
+**80. Neurális hálóknál, ha szigmoid aktivációs függvényt alkalmazunk, akkor lényeges, hogy már a tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete.**  
+Hamis  
+
+**81. Akkor beszélünk túltanulásról, ha a tanító készlet mintáira már nagyon kis hibájú válaszokat kapunk, miközben a kiértékelő készletre egyre nagyobb hibájú válaszok érkeznek.**  
+Igaz  
+
+**82. Neurális hálóknál a batch, azaz kötegelt tanítás azt jelenti, hogy súlymódosításra csak a teljes tanítókészlet felhasználása után kerül sor.**  
+Igaz  
+
+**83. Mivel a bátorsági tényező (learning rate) egyértelmű meghatározására nincs módszer, így az egyik lehetőség az, hogy a kritériumfüggvénytől függő adaptív bátorsági tényezőt alkalmazunk.**  
+Igaz  
+
+**84. A naiv Bayes-hálók alapvető feltevése az, hogy egyetlen szülőcsomóponthoz több gyerekcsomópont kapcsolódik, melyek között lehetnek további függőségi kapcsolatok.**  
+Hamis  
+
+**85. Egy Bayes-háló csak oksági kapcsolatokat képes reprezentálni.**  
+Hamis  
+
+**86. Egy Bayes-hálóbeli csomópont a Markov-takarója ismeretében feltételesen független az összes többi csomóponttól.**  
+Igaz  
+
+**87. Egyszeresen összekötött gráf struktúrával rendelkező Bayes-hálók esetében (polifa) létezik a háló méretében lineáris idő- és tárkomplexitású egzakt következtető algoritmus.**  
+Igaz  
+
+**88. Passzív megerősítéses tanulásnál N állapot esetén a Bellman összefüggésből egy N egyenletből álló nemlineáris egyenletrendszer adódik.**  
+Hamis  
+
+**89. Az oksági kapcsolatok mindig egyben asszociációs kapcsolatok is.**  
+Hamis  
+
+**90. A tanítás elején a telítéses szakaszra kerüljön a rejtett rétegek kimenete.**  
+Hamis  
+
+**91. A tanítás elején ne kerüljön a telítéses szakaszra a rejtett rétegek kimenete.**  
+Igaz  
+
+**92. A tanítás elején kerüljön nem telítéses szakaszra a rejtett rétegek kimenete.**  
+Igaz  
+
+**93. Egy csomópont feltételesen független a nem leszármazottaitól a szülők ismeretében.**  
+Igaz  
+
+**94. Egy csomópont feltételes valószínűségi táblája a szülők értékeinek konfigurációja szerint tartalmazza a csomópontra vonatkozó feltételes valószínűségeket.**  
+Igaz  
+
+**95. A Bayes-háló feltételes függetlenségeket / függőségeket leíró gráfstruktúrája összhangban kell legyen a parametrizációval, melyet minden csomópontra a szülők értékei függvényében adunk meg.**  
+Igaz  
+
+**96. A Bayes-háló által reprezentált együttes valószínűségi eloszlás a szülői halmazok alapján faktorálható (feltételes valószínűségek szorzatára).**  
+Igaz  
+
+**97. A Bayes-háló által leírt függőségek mindig oksági kapcsolatokat jelentenek.**  
+Hamis  
+
+**98. Egy adott csomópont szülei, gyermekei és gyermekeinek egyéb szülei tartoznak ebbe a halmazba.**  
+Igaz  
+
+**99. Egy döntési fa esetében a nyesés (pruning) azt jelenti, hogy a döntési fának eltávolítjuk azt az ágát, ahol egy attribútum vizsgálata révén előálló információszükséglet-változás nem releváns.**  
+Igaz  
+
+**100. Egy döntési fa esetében a komplexitás – hibaarány alapú nyesésnél az alfa paraméter az egységnyi komplexitás költségének és az egységnyi hiba költségének az aránya.**  
+Igaz  
+
