@@ -255,8 +255,8 @@ Itt vannak a helyes válaszok a táblázatba, majd alatta a részletes magyaráz
 
 | Tulajdonság | Korlátozott mélységi (DLS) | Iteratívan mélyülő (IDS) |
 | :--- | :--- | :--- |
-| **Complete** (Teljes?) | **NEM** (vagy IGEN*) | IGEN (már beírva) |
-| **Optimal** (Optimális?) | **NEM** | **IGEN** (vagy IGEN*) |
+| **Complete** (Teljes?) | IGEN* | IGEN (már beírva) |
+| **Optimal** (Optimális?) | **NEM** | **IGEN** |
 | **Time complexity** (Idő) | **b^l** | **b^d** |
 | **Space complexity** (Tár) | **b*l** | **b*d** |
 
