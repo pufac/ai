@@ -183,3 +183,117 @@ Térképen a **légvonalbeli távolság** mindig elfogadható heurisztika. Miér
 
 A **Mohó keresés** (1. kérdés) nem foglalkozik azzal, hogy a heurisztika elfogadható-e, csak rohan a cél felé. Ezért nem is optimális.
 Az **A* keresés** viszont pont attól lesz zseniális és optimális, hogy **elfogadható heurisztikát** (2. kérdés) használ, és hozzáadja a múltbeli költséget ($g+h$).
+
+
+![kep2](img/ker3.png)
+
+Szuper, haladjunk tovább! Ez a kérdés az előzőnek (az elfogadható heurisztikának) a közvetlen folytatása.
+
+Most már tudjuk, hogy a heurisztikának "optimistának" kell lennie (tehát alul kell becsülnie a valós távolságot). De mi van, ha két ilyen jó heurisztikánk is van? Melyiket válasszuk? Erről szól a **dominancia**.
+
+**A kérdés:** *Ha h1 heurisztika dominálja h2-őt, az azt jelenti...*
+
+**A helyes válasz:**
+**a. a h1 függvény értéke mindig jobb, mint h2 függvény értéke, tehát legalább akkora, mint h2.**
+
+*(Fontos: A képen az "a" választ kell bejelölni.)*
+
+---
+
+### Részletes magyarázat (Hogy megértsd az összefüggést)
+
+#### 1. A kontextus: "Minél több, annál jobb"
+Emlékezz vissza az előző kérdésre: egy **elfogadható** heurisztika sosem mondhat nagyobbat a valóságnál. Tehát $0 \le h(n) \le h^*(n)$ (ahol $h^*$ a valós távolság).
+
+Képzelj el egy számegyenest:
+*   A **0** a teljesen vak keresés (semmit nem tudunk).
+*   A **$h^*(n)$** a tökéletes tudás (a valós távolság).
+
+A mi heurisztikáink valahol a 0 és a $h^*$ között vannak.
+*   Minél közelebb van a becslésünk a $h^*$-hoz (a valósághoz), annál "okosabb" az algoritmus, és annál kevesebb felesleges kört futunk.
+*   Mivel alulról közelítünk, ez azt jelenti, hogy **a NAGYOBB szám a jobb.**
+
+#### 2. Definíció: Dominancia
+Ha van két elfogadható heurisztikánk ($h_1$ és $h_2$), és minden lehetséges $n$ állapotra igaz, hogy:
+$$h_1(n) \ge h_2(n)$$
+...akkor azt mondjuk, hogy **$h_1$ dominálja $h_2$-t**.
+
+Mivel $h_1$ értékei nagyobbak (vagy egyenlőek), ezért $h_1$ közelebb van a valósághoz ($h^*$), tehát **$h_1$ a jobb**, a hatékonyabb.
+
+#### 3. Miért jobb a nagyobb? (Példa)
+Legyen a feladat eljutni A-ból B-be. A valós távolság (amit nem tudunk) 100 km.
+*   **$h_2$ (A "butább" heurisztika):** Azt mondja, szerinte még 10 km van hátra. (Nagyon alulbecsli, túl optimista, szinte vak). Emiatt az algoritmus sokat fog tévelyegni, mert minden irány jónak tűnik neki.
+*   **$h_1$ (A domináns heurisztika):** Azt mondja, szerinte még 90 km van hátra. (Még ez is alulbecslés, tehát elfogadható, de sokkal pontosabb).
+
+Az A* algoritmus $f(n) = g(n) + h(n)$ alapján dönt.
+A nagyobb $h$ érték hamarabb "észreveszi", ha rossz irányba megyünk, és hamarabb "elvágja" a rossz ágakat.
+**Tehát: Aki dominál (nagyobb értéket ad), az kevesebb csomópontot fejt ki, gyorsabban találja meg a célt.**
+
+---
+
+### Miért rosszak a többi válaszok?
+
+*   **b. ...legtöbbször kisebb...** -> A "kisebb" heurisztika a "butább". Ha kisebb, akkor távolabb van a valóságtól (a nullához közelít). Nem azt akarjuk.
+*   **c. ...tehát mindig kisebb.** -> Ez a legbecsapósabb! A hétköznapi életben a "költség" esetén a kisebb a jobb (olcsóbb). De itt **információról** van szó. A kisebb értékű heurisztika kevesebb információt hordoz. Ezért itt a nagyobb a "jobb".
+*   **d. ...mindig távolabb van a valódi költségtől...** -> Pont fordítva. Aki dominál, az van **közelebb** a valódi költséghez.
+
+### Összefüggés a vizsgára:
+1.  **Admisszibilis:** $h \le h^*$ (Sosem becsüljük túl).
+2.  **Dominancia:** Ha $h_1 > h_2$, akkor $h_1$ jobb (mert közelebb van $h^*$-hoz, de még mindig alatta).
+3.  **Hatás:** Ha $h_1$ dominálja $h_2$-t, akkor az A* algoritmus $h_1$-gyel **garantáltan kevesebb vagy ugyanannyi** csomópontot vizsgál meg, mint $h_2$-vel. (Tehát gyorsabb).
+
+
+
+![kep2](img/ker4.png)
+
+
+Ez egy klasszikus összehasonlító táblázat, ami a "vakon keresés" két fontos algoritmusát állítja szembe. Ez a vizsgák egyik kedvence, mert rámutat arra, miért zseniális az **Iteratívan mélyülő (IDS)** keresés.
+
+Itt vannak a helyes válaszok a táblázatba, majd alatta a részletes magyarázat, hogy megértsd az összefüggéseket.
+
+### A helyes kitöltés:
+
+| Tulajdonság | Korlátozott mélységi (DLS) | Iteratívan mélyülő (IDS) |
+| :--- | :--- | :--- |
+| **Complete** (Teljes?) | **NEM** (vagy IGEN*) | IGEN (már beírva) |
+| **Optimal** (Optimális?) | **NEM** | **IGEN** (vagy IGEN*) |
+| **Time complexity** (Idő) | **b^l** | **b^d** |
+| **Space complexity** (Tár) | **b*l** | **b*d** |
+
+*(Megjegyzés a csillagos IGEN*-ről: A tesztek néha trükkösek. A DLS csak akkor teljes, ha a korlát elég nagy ($l \ge d$), ekkor lehet IGEN*. Az IDS pedig csak akkor optimális, ha minden lépés költsége 1, egyébként IGEN*. De az alapesetben a fenti a standard válasz.)*
+
+---
+
+### Részletes magyarázat – Hogy értsd is, mit húzol be
+
+Először tisztázzuk a betűket:
+*   **$b$**: Elágazási tényező (egy csomópontból hány út nyílik).
+*   **$d$**: A megoldás mélysége (milyen mélyen van a kincs).
+*   **$l$**: A korlát (limit), amit mi állítunk be a DLS-nél.
+
+#### 1. Bal oszlop: Korlátozott mélységi keresés (Depth-Limited Search - DLS)
+Ez valójában egy sima mélységi keresés (DFS), amire ráraktunk egy pórázt. Azt mondjuk neki: "Keresgélj, de a 10. szintnél ($l=10$) mélyebbre ne menj!"
+
+*   **Complete (Teljes-e?): NEM.**
+    *   *Miért?* Mert a póráz miatt lehet, hogy nem érjük el a célt. Ha a kincs a 11. szinten van ($d=11$), de a mi korlátunk csak 10 ($l=10$), akkor sosem találjuk meg.
+*   **Optimal (Optimális-e?): NEM.**
+    *   *Miért?* Ugyanaz a baja, mint a sima mélységi keresésnek. Ha van egy megoldás a bal oldali ágon a 8. szinten, és egy másik a jobb oldali ágon a 3. szinten, ő a bal oldalit fogja előbb megtalálni (mert arra indult el), pedig az a hosszabb út.
+*   **Time (Időigény): $b^l$** (a képen a **b^l** csempét keresd)
+    *   *Miért?* Mert a legrosszabb esetben végignézi az egész fát a korlátig ($l$). Ez exponenciális növekedés.
+*   **Space (Tárigény): $b \cdot l$** (a képen a **b*l** csempét keresd)
+    *   *Miért?* Ez a nagy előnye! Csak az éppen vizsgált ágat kell a memóriában tartani. Ez lineáris memóriaigény, ami nagyon kevés.
+
+#### 2. Jobb oszlop: Iteratívan mélyülő keresés (Iterative Deepening Search - IDS)
+Ez az "okos" algoritmus. Lényege: Lefuttat egy DLS-t 1-es korláttal. Ha nincs meg, újrakezdi 2-es korláttal. Ha nincs meg, 3-assal... és így tovább, amíg meg nem találja a $d$ mélységben lévő célt.
+
+*   **Optimal (Optimális-e?): IGEN.**
+    *   *Miért?* Mivel szintről szintre halad (először megnézi az összes 1 mélyet, aztán a 2 mélyet...), garantáltan a **legsekélyebb** megoldást találja meg legelőször. (Pont úgy viselkedik, mint a Szélességi keresés, csak kevesebb memóriával).
+    *   *Apróbetű:* Csak akkor optimális, ha a lépések költsége állandó (pl. minden lépés 1). Ha változó költségek vannak, akkor nem feltétlenül. (Erre utalhat az IGEN* opció, ha van ilyen).
+*   **Time (Időigény): $b^d$** (a képen a **b^d** csempét keresd)
+    *   *Miért?* Bár többször újrakezdi a keresést, a matematika azt mutatja (geometriai sorozat), hogy az utolsó szint ($d$) csomópontjainak száma dominál. A nagyságrendje ugyanannyi, mint a szélességi keresésé.
+*   **Space (Tárigény): $b \cdot d$** (a képen a **b*d** csempét keresd)
+    *   *Miért?* Ez a zseniális benne! Mivel belül ez egy mélységi keresés, **lineáris** a memóriaigénye. Egyesíti a Szélességi keresés optimalitását a Mélységi keresés kis memóriaigényével.
+
+### Összefoglalva a vizsgára:
+*   **DLS:** **NEM** teljes, **NEM** optimális, de kevés RAM-ot eszik (**b*l**). Idő: **b^l**.
+*   **IDS:** **IGEN** teljes, **IGEN** optimális, és ez is kevés RAM-ot eszik (**b*d**). Idő: **b^d**.
