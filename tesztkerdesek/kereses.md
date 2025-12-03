@@ -1,5 +1,5 @@
 
-![kep1](img/ker1)
+![kep1](img/ker1.png)
 
 Szuper, vágjunk is bele! Ez a két kérdés a **Keresési problémák** témakörét fedi le.
 
@@ -96,7 +96,7 @@ A relaxált probléma megoldása mindig **kisebb vagy egyenlő** (költségben),
 2.  **Relaxáció:** Egy trükk, amivel **heurisztikát gyártunk**. Azt jelenti: "Mi lenne a legrövidebb út, ha átmehetnék a falakon?". A falak a "megkötések". Ha elhagyod a megkötést (a falat), megkapod a relaxált problémát.
 
 
-![kep2](img/ker2)
+![kep2](img/ker2.png)
 
 
 Remek, haladjunk tovább! Most az **Informált keresési stratégiák** (más néven Heurisztikus keresések) sűrűjében vagyunk.
