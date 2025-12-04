@@ -137,6 +137,36 @@ Ezért volt a feladatban az a hosszú, összeadásos sor a nevezőben.
 
 Ez a Bayes-tétel lényege: kiszűri a zajt (téves riasztásokat) az előzetes tudásunk segítségével.
 
+Persze! Íme a **bővített Bayes-tétel általános képlete**, amit az előző feladatra is alkalmaztunk.
+
+Jelölések:
+*   **Y**: A hipotézis, amire kíváncsiak vagyunk (pl. "Spam").
+*   **X**: A bizonyíték, amit látunk (pl. "nyeremény" szó).
+*   **$\neg$Y**: A hipotézis ellentettje (pl. "Nem Spam").
+
+A képlet:
+
+$$ P(Y | X) = \frac{P(X | Y) \cdot P(Y)}{P(X | Y) \cdot P(Y) + P(X | \neg Y) \cdot P(\neg Y)} $$
+
+### A képlet "magyarul", részekre bontva:
+
+*   **$P(Y | X)$ (A bal oldal):**
+    *   **Amit keresünk:** Mennyi az esélye a hipotézisnek (Y), ha a bizonyítékot (X) látjuk?
+    *   *Például: Mennyi az esélye, hogy Spam, ha látom a "nyeremény" szót?*
+
+*   **$P(X | Y) \cdot P(Y)$ (A számláló):**
+    *   **Jelentése:** Annak a valószínűsége, hogy a hipotézis IGAZ, ÉS a bizonyíték is megjelenik. (A "valódi pozitív" esete).
+    *   *Például: Mennyi az esélye, hogy egy levél Spam ÉS tartalmazza a "nyeremény" szót?*
+
+*   **$P(X | \neg Y) \cdot P(\neg Y)$ (A nevező második fele):**
+    *   **Jelentése:** Annak a valószínűsége, hogy a hipotézis HAMIS, de a bizonyíték MÉGIS megjelenik. (A "téves pozitív" / "vaklárma" esete).
+    *   *Például: Mennyi az esélye, hogy egy levél NEM Spam, de mégis tartalmazza a "nyeremény" szót?*
+
+*   **A teljes nevező:**
+    *   **Jelentése:** Az összes eset, amikor a bizonyítékot láthatjuk (a valódi és a téves pozitívok összege).
+    *   *Például: Az összes "nyeremény" szót tartalmazó levél valószínűsége.*
+
+
 ![kep2](img/bayes2.png)
 
 
