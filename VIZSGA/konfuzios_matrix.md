@@ -1,4 +1,4 @@
-![Alt text](/img/konf__m.png)
+![Alt text](img/konf__m.png)
 
 
 Persze, tegyük ezt teljesen tisztába! A konfúziós mátrix (tévesztési mátrix) a legfontosabb eszköz, hogy megértsd, mit csinál egy modell, mert nem csak azt mondja meg, hogy "mennyire okos", hanem azt is, hogy **milyen fajta hibákat vét.**

@@ -1,5 +1,5 @@
-![Alt text](/img/zsiros_hus0.png)
-![alt text](/img/zsiros_hus.png)
+![Alt text](img/zsiros_hus0.png)
+![alt text](img/zsiros_hus.png)
 
 Ez egy klasszikus **Döntési Fa (Decision Tree)** építős feladat, ahol az **Entrópia** és az **Információnyereség** számítása a lényeg.
 
