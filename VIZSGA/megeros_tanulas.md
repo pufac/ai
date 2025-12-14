@@ -1,4 +1,5 @@
 ![alt text](img/megeros_tanulas.png)
+![alt text](img/megeros_tanulas_m.png)
 
 
 Szuper, megérkeztek a képek! Ez egy klasszikus **Értékiteráció (Value Iteration)** feladat Markov-döntési folyamatokban (MDP).
